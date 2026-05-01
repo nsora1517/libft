@@ -6,7 +6,7 @@
 /*   By: snagasak <snagasak@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/29 02:56:09 by snagasak          #+#    #+#             */
-/*   Updated: 2026/04/29 02:56:53 by snagasak         ###   ########.fr       */
+/*   Updated: 2026/05/01 20:10:58 by snagasak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,6 +22,7 @@
 # include <stdint.h>
 # include <stdlib.h>
 # include <unistd.h>
+#include<stddef.h>
 
 
 typedef struct s_list
