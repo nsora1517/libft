@@ -6,17 +6,20 @@
 /*   By: snagasak <snagasak@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/28 16:03:58 by snagasak          #+#    #+#             */
-/*   Updated: 2026/04/28 20:17:46 by snagasak         ###   ########.fr       */
+/*   Updated: 2026/05/03 01:12:58 by snagasak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
+
 void	ft_bzero(void *b, size_t len)
 {
-	size_t i;
+	size_t	i;
+
 	i = 0;
-	while(i < len)
+	while (i < len)
 	{
-		(unsigned char *)b[i] = '\0';
+		((unsigned char *)b)[i] = '\0';
 		i++;
 	}
 }
